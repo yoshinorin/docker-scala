@@ -1,6 +1,6 @@
 # Scala docker image
 
-Base image is `openjdk:8u151-jdk` (Debian)
+Docker image for Scala.
 
 # Supported version
 
@@ -11,5 +11,5 @@ Base image is `openjdk:8u151-jdk` (Debian)
 # Usaga
 
 ```sh
-docker run yoshinorin/docker-scala:<version>
+docker run -it yoshinorin/docker-scala:<version>
 ```
