@@ -7,6 +7,7 @@ Docker image for Scala.
 |version|OS|JDK|Scala|
 |---|---|---|---|
 |2.12.4|Debian|8u151-jdk|2.12.4|
+|2.12.5|Debian|8u151-jdk|2.12.5|
 
 # Usaga
 

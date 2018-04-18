@@ -2,7 +2,7 @@ FROM openjdk:8u151-jdk
 
 MAINTAINER YoshinoriN
 
-ENV SCALA_VERSION=2.12.4
+ENV SCALA_VERSION=2.12.5
 
 RUN apt-get update \
  && wget https://downloads.lightbend.com/scala/${SCALA_VERSION}/scala-${SCALA_VERSION}.deb \
