@@ -11,6 +11,7 @@ Docker image for Scala.
 |2.12.6|Debian|8u151-jdk|2.12.6|
 |2.12.8|Debian|openjdk:11.0.1|2.12.8|
 |2.12.9|Debian|openjdk:11.0.1|2.12.9|
+|2.13.0|Ubuntu(bionic)|adoptopenjdk:11.0.4|2.13.0|
 
 # Usaga
 

@@ -1,12 +1,14 @@
-FROM openjdk:11.0.1
+FROM adoptopenjdk:11.0.4_11-jdk-hotspot-bionic
 
 MAINTAINER YoshinoriN
 
-ENV SCALA_VERSION=2.12.9
+RUN apt update \
+ && apt upgrade \
+ && apt install -y zip unzip bash \
+ && ln -sf bash /bin/sh
 
-RUN apt-get update \
- && wget https://downloads.lightbend.com/scala/${SCALA_VERSION}/scala-${SCALA_VERSION}.deb \
- && dpkg -i scala-${SCALA_VERSION}.deb \
- && rm -f scala-${SCALA_VERSION}.deb \
- && apt-get autoremove \
- && apt-get autoclean
+RUN curl -s "https://get.sdkman.io" | bash \
+ && source "$HOME/.sdkman/bin/sdkman-init.sh" \
+ && sdk install scala 2.13.0 \
+ && apt autoremove \
+ && apt autoclean
