@@ -9,6 +9,6 @@ RUN apt update \
 
 RUN curl -s "https://get.sdkman.io" | bash \
  && source "$HOME/.sdkman/bin/sdkman-init.sh" \
- && sdk install scala 2.13.0 \
+ && sdk install scala 2.13.1 \
  && apt autoremove \
  && apt autoclean
