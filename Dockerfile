@@ -1,4 +1,4 @@
-FROM adoptopenjdk:11.0.4_11-jdk-hotspot-bionic
+FROM adoptopenjdk:11.0.6_10-jdk-hotspot-bionic
 
 MAINTAINER YoshinoriN
 
