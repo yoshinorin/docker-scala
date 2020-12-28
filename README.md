@@ -14,6 +14,7 @@ Docker image for Scala.
 |2.13.0|Ubuntu(bionic)|adoptopenjdk:11.0.4|2.13.0|
 |2.13.1|Ubuntu(bionic)|adoptopenjdk:11.0.6|2.13.1|
 |2.13.3|Ubuntu(bionic)|adoptopenjdk:11.0.6|2.13.3|
+|2.13.4|Ubuntu(bionic)|adoptopenjdk:11.0.8|2.13.4|
 
 # Usaga
 
