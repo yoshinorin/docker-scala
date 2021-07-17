@@ -1,6 +1,6 @@
 FROM adoptopenjdk:11.0.8_10-jdk-hotspot-bionic
 
-MAINTAINER YoshinoriN
+MAINTAINER yoshinorin
 
 RUN apt-get update -y \
  && apt-get upgrade -y \
