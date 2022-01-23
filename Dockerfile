@@ -1,4 +1,4 @@
-FROM adoptopenjdk:11.0.8_10-jdk-hotspot-bionic
+FROM adoptopenjdk:11.0.11_9-jre-hotspot-focal
 
 MAINTAINER yoshinorin
 
@@ -6,7 +6,6 @@ RUN apt-get update -y \
  && apt-get upgrade -y \
  && apt-get install -y zip unzip bash \
  && ln -sf bash /bin/sh
-
 
 # https://github.com/sdkman/sdkman-cli/issues/923#issuecomment-862979051
 RUN curl -s "https://get.sdkman.io" | bash \
