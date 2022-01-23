@@ -21,5 +21,9 @@ Docker image for Scala.
 # Usaga
 
 ```sh
-docker run -it yoshinorin/docker-scala:<version>
+# before 2.13.5
+docker pull yoshinorin/docker-scala:<version>
+
+# after 2.13.5.2
+docker pull ghcr.io/yoshinorin/docker-scala:<version>
 ```
