@@ -17,6 +17,7 @@ Docker image for Scala.
 |2.13.4|Ubuntu(bionic)|adoptopenjdk:11.0.8|2.13.4|
 |2.13.5|Ubuntu(bionic)|adoptopenjdk:11.0.8|2.13.5|
 |2.13.5.2|Ubuntu(focal)|adoptopenjdk:11.0.9|2.13.5|
+|2.13.6|Ubuntu(focal)|eclipse-temurin:17.0.2_8|2.13.6|
 
 # Usaga
 

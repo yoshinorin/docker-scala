@@ -1,4 +1,4 @@
-FROM adoptopenjdk:11.0.11_9-jre-hotspot-focal
+FROM eclipse-temurin:17.0.2_8-jre-focal
 
 MAINTAINER yoshinorin
 
@@ -11,6 +11,6 @@ RUN apt-get update -y \
 RUN curl -s "https://get.sdkman.io" | bash \
  && echo "sdkman_auto_complete=false" >> "$HOME/.sdkman/etc/config" \
  && source "$HOME/.sdkman/bin/sdkman-init.sh" \
- && sdk install scala 2.13.5 \
+ && sdk install scala 2.13.6 \
  && apt-get autoremove \
  && apt-get clean
