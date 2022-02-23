@@ -1,6 +1,6 @@
 FROM eclipse-temurin:17.0.2_8-jre-focal
 
-MAINTAINER yoshinorin
+LABEL maintainer="yoshinorin"
 
 RUN apt-get update -y \
  && apt-get upgrade -y \
