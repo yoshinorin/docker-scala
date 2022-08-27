@@ -2,9 +2,9 @@ FROM eclipse-temurin:17.0.4.1_1-jdk-jammy
 
 LABEL maintainer="yoshinorin"
 
-RUN apt-get update -y \
- && apt-get upgrade -y \
- && apt-get install -y zip unzip bash \
+RUN apt update -y \
+ && apt upgrade -y \
+ && apt install -y zip unzip bash \
  && ln -sf bash /bin/sh
 
 # https://github.com/sdkman/sdkman-cli/issues/923#issuecomment-862979051
