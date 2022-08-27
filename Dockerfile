@@ -1,4 +1,4 @@
-FROM eclipse-temurin:17.0.3_7-jre-focal
+FROM eclipse-temurin:17.0.4.1_1-jdk-jammy
 
 LABEL maintainer="yoshinorin"
 
