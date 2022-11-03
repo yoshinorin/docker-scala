@@ -12,5 +12,5 @@ RUN curl -s "https://get.sdkman.io" | bash \
  && echo "sdkman_auto_complete=false" >> "$HOME/.sdkman/etc/config" \
  && source "$HOME/.sdkman/bin/sdkman-init.sh" \
  && sdk install scala 2.13.8 \
- && apt-get autoremove \
- && apt-get clean
+ && apt autoremove \
+ && apt clean
