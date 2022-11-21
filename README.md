@@ -21,6 +21,7 @@ Docker image for Scala.
 |2.13.8|Ubuntu(focal)|eclipse-temurin:17.0.3_7-jre|2.13.8|
 |2.13.8.2|Ubuntu(jammy)|eclipse-temurin:17.0.4.1_1-jdk|2.13.8|
 |2.13.10|Ubuntu(jammy)|eclipse-temurin:17.0.4.1_1-jdk|2.13.10|
+|2.13.10.2|Ubuntu(jammy)|eclipse-temurin:17.0.5_8-jdk|2.13.10|
 
 # Usaga
 
