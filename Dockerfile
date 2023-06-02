@@ -11,6 +11,6 @@ RUN apt update -y \
 RUN curl -s "https://get.sdkman.io" | bash \
  && echo "sdkman_auto_complete=false" >> "$HOME/.sdkman/etc/config" \
  && source "$HOME/.sdkman/bin/sdkman-init.sh" \
- && sdk install scala 3.2.2 \
+ && sdk install scala 3.3.0 \
  && apt autoremove \
  && apt clean
