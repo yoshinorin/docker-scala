@@ -15,5 +15,6 @@ RUN curl -s "https://get.sdkman.io" | bash \
  && chmod +x "$HOME/.sdkman/bin/sdkman-init.sh" \
  && source "$HOME/.sdkman/bin/sdkman-init.sh" \
  && sdk install scala 3.3.1 \
+ && rm -rf "$HOME/.sdkman" \
  && apt autoremove \
  && apt clean
