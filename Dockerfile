@@ -3,18 +3,18 @@ FROM eclipse-temurin:17.0.9_9-jdk-jammy
 LABEL maintainer="yoshinorin"
 
 RUN apt update -y \
- && apt upgrade -y \
- && apt install -y zip unzip bash \
- && ln -sf bash /bin/sh
+  && apt upgrade -y \
+  && apt install -y zip unzip bash \
+  && ln -sf bash /bin/sh
 
 # https://github.com/sdkman/sdkman-cli/issues/923#issuecomment-862979051
 RUN curl -s "https://get.sdkman.io" | bash \
- && echo "sdkman_auto_complete=false" >> "$HOME/.sdkman/etc/config" \
- && echo "sdkman_curl_connect_timeout=30" >> "$HOME/.sdkman/etc/config" \
- && echo "sdkman_curl_max_time=60" >> "$HOME/.sdkman/etc/config" \
- && chmod +x "$HOME/.sdkman/bin/sdkman-init.sh" \
- && source "$HOME/.sdkman/bin/sdkman-init.sh" \
- && sdk install scala 3.3.1 \
- && rm -rf "$HOME/.sdkman" \
- && apt autoremove \
- && apt clean
+  && echo "sdkman_auto_complete=false" >> "$HOME/.sdkman/etc/config" \
+  && echo "sdkman_curl_connect_timeout=30" >> "$HOME/.sdkman/etc/config" \
+  && echo "sdkman_curl_max_time=60" >> "$HOME/.sdkman/etc/config" \
+  && chmod +x "$HOME/.sdkman/bin/sdkman-init.sh" \
+  && source "$HOME/.sdkman/bin/sdkman-init.sh" \
+  && sdk install scala 3.3.1 \
+  && rm -rf "$HOME/.sdkman" \
+  && apt autoremove \
+  && apt clean
