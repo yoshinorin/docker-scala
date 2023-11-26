@@ -4,7 +4,7 @@ LABEL maintainer="yoshinorin"
 
 RUN apt update -y \
   && apt upgrade -y \
-  && apt install -y zip unzip bash \
+  && apt install --no-install-recommends -y zip unzip bash \
   && ln -sf bash /bin/sh
 
 # https://github.com/sdkman/sdkman-cli/issues/923#issuecomment-862979051
