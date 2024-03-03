@@ -1,4 +1,4 @@
-FROM eclipse-temurin:21.0.1_12-jdk-jammy
+FROM eclipse-temurin:21.0.2_13-jdk-jammy
 
 LABEL maintainer="yoshinorin"
 
