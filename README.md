@@ -16,23 +16,23 @@ Docker image for Scala.
 |2.13.3|Ubuntu(bionic)|adoptopenjdk:11.0.6|2.13.3|
 |2.13.4|Ubuntu(bionic)|adoptopenjdk:11.0.8|2.13.4|
 |2.13.5|Ubuntu(bionic)|adoptopenjdk:11.0.8|2.13.5|
-|2.13.5.2|Ubuntu(focal)|adoptopenjdk:11.0.9|2.13.5|
-|2.13.6|Ubuntu(focal)|eclipse-temurin:17.0.2_8-jre|2.13.6|
-|2.13.8|Ubuntu(focal)|eclipse-temurin:17.0.3_7-jre|2.13.8|
-|2.13.8.2|Ubuntu(jammy)|eclipse-temurin:17.0.4.1_1-jdk|2.13.8|
-|2.13.10|Ubuntu(jammy)|eclipse-temurin:17.0.4.1_1-jdk|2.13.10|
-|2.13.10.2|Ubuntu(jammy)|eclipse-temurin:17.0.5_8-jdk|2.13.10|
-|3.2.1|Ubuntu(jammy)|eclipse-temurin:17.0.5_8-jdk|3.2.1|
-|3.2.2|Ubuntu(jammy)|eclipse-temurin:17.0.7_7-jdk|3.2.2|
-|3.3.0|Ubuntu(jammy)|eclipse-temurin:17.0.7_7-jdk|3.3.0|
-|3.3.0.2|Ubuntu(jammy)|eclipse-temurin:17.0.8_7-jdk|3.3.0|
-|3.3.1|Ubuntu(jammy)|eclipse-temurin:17.0.8_7-jdk|3.3.1|
-|3.3.1.2|Ubuntu(jammy)|eclipse-temurin:17.0.9_9-jdk|3.3.1|
-|3.3.1-21.0.1_12-jdk-jammy|Ubuntu(jammy)|eclipse-temurin:21.0.1_12-jdk-jammy|3.3.1|
-|3.3.3-21.0.2_13-jdk-jammy|Ubuntu(jammy)|eclipse-temurin:21.0.2_13-jdk-jammy|3.3.3|
-|3.4.0-21.0.2_13-jdk-jammy|Ubuntu(jammy)|eclipse-temurin:21.0.2_13-jdk-jammy|3.4.0|
-|3.4.1-21.0.2_13-jdk-jammy|Ubuntu(jammy)|eclipse-temurin:21.0.2_13-jdk-jammy|3.4.1|
-|3.4.2-21.0.2_13-jdk-jammy|Ubuntu(jammy)|eclipse-temurin:21.0.2_13-jdk-jammy|3.4.2|
+|v2.13.5.2|Ubuntu(focal)|adoptopenjdk:11.0.9|2.13.5|
+|v2.13.6|Ubuntu(focal)|eclipse-temurin:17.0.2_8-jre|2.13.6|
+|v2.13.8|Ubuntu(focal)|eclipse-temurin:17.0.3_7-jre|2.13.8|
+|v2.13.8.2|Ubuntu(jammy)|eclipse-temurin:17.0.4.1_1-jdk|2.13.8|
+|v2.13.10|Ubuntu(jammy)|eclipse-temurin:17.0.4.1_1-jdk|2.13.10|
+|v2.13.10.2|Ubuntu(jammy)|eclipse-temurin:17.0.5_8-jdk|2.13.10|
+|v3.2.1|Ubuntu(jammy)|eclipse-temurin:17.0.5_8-jdk|3.2.1|
+|v3.2.2|Ubuntu(jammy)|eclipse-temurin:17.0.7_7-jdk|3.2.2|
+|v3.3.0|Ubuntu(jammy)|eclipse-temurin:17.0.7_7-jdk|3.3.0|
+|v3.3.0.2|Ubuntu(jammy)|eclipse-temurin:17.0.8_7-jdk|3.3.0|
+|v3.3.1|Ubuntu(jammy)|eclipse-temurin:17.0.8_7-jdk|3.3.1|
+|v3.3.1.2|Ubuntu(jammy)|eclipse-temurin:17.0.9_9-jdk|3.3.1|
+|v3.3.1-21.0.1_12-jdk-jammy|Ubuntu(jammy)|eclipse-temurin:21.0.1_12-jdk-jammy|3.3.1|
+|v3.3.3-21.0.2_13-jdk-jammy|Ubuntu(jammy)|eclipse-temurin:21.0.2_13-jdk-jammy|3.3.3|
+|v3.4.0-21.0.2_13-jdk-jammy|Ubuntu(jammy)|eclipse-temurin:21.0.2_13-jdk-jammy|3.4.0|
+|v3.4.1-21.0.2_13-jdk-jammy|Ubuntu(jammy)|eclipse-temurin:21.0.2_13-jdk-jammy|3.4.1|
+|v3.4.2-21.0.2_13-jdk-jammy|Ubuntu(jammy)|eclipse-temurin:21.0.2_13-jdk-jammy|3.4.2|
 
 # Usaga
 
