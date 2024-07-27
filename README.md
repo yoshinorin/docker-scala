@@ -33,6 +33,7 @@ Docker image for Scala.
 |v3.4.0-21.0.2_13-jdk-jammy|Ubuntu(jammy)|eclipse-temurin:21.0.2_13-jdk-jammy|3.4.0|
 |v3.4.1-21.0.2_13-jdk-jammy|Ubuntu(jammy)|eclipse-temurin:21.0.2_13-jdk-jammy|3.4.1|
 |v3.4.2-21.0.2_13-jdk-jammy|Ubuntu(jammy)|eclipse-temurin:21.0.2_13-jdk-jammy|3.4.2|
+|v3.4.2-21.0.4_7-jdk-noble|Ubuntu(jammy)|eclipse-temurin:21.0.4_7-jdk-noble|3.4.2|
 
 # Usaga
 
