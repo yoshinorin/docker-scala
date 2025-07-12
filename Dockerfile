@@ -16,5 +16,6 @@ RUN curl -s "https://get.sdkman.io" | bash \
   && source "$HOME/.sdkman/bin/sdkman-init.sh" \
   && sdk install scala 3.7.1 \
   && rm -rf "$HOME/.sdkman" \
-  && apt autoremove \
-  && apt clean
+  && apt autoremove -y \
+  && apt clean \
+  && rm -rf /var/lib/apt/lists/*
