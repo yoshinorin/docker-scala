@@ -1,4 +1,4 @@
-FROM eclipse-temurin:21.0.7_6-jdk-noble
+FROM eclipse-temurin:21.0.8_9-jdk-noble
 
 LABEL maintainer="yoshinorin"
 
@@ -14,7 +14,7 @@ RUN curl -s "https://get.sdkman.io" | bash \
   && echo "sdkman_curl_max_time=60" >> "$HOME/.sdkman/etc/config" \
   && chmod +x "$HOME/.sdkman/bin/sdkman-init.sh" \
   && source "$HOME/.sdkman/bin/sdkman-init.sh" \
-  && sdk install scala 3.7.1 \
+  && sdk install scala 3.7.2 \
   && rm -rf "$HOME/.sdkman" \
   && apt autoremove -y \
   && apt clean \
