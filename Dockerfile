@@ -1,10 +1,10 @@
-FROM eclipse-temurin:21.0.9_10-jdk-noble
+FROM eclipse-temurin:25.0.1_8-jdk-noble
 
 LABEL maintainer="yoshinorin"
 
 RUN apt update -y \
   && apt upgrade -y \
-  && apt install --no-install-recommends -y zip unzip bash \
+  && apt install --no-install-recommends -y zip unzip bash curl \
   && ln -sf bash /bin/sh
 
 # https://github.com/sdkman/sdkman-cli/issues/923#issuecomment-862979051

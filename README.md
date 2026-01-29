@@ -44,6 +44,8 @@ Docker image for Scala.
 |v3.7.2-21.0.8_9-jdk-noble|Ubuntu(noble)|eclipse-temurin:21.0.8_9-jdk-noble|3.7.2|
 |v3.7.3-21.0.8_9-jdk-noble|Ubuntu(noble)|eclipse-temurin:21.0.8_9-jdk-noble|3.7.3|
 |v3.7.4-21.0.9_10-jdk-noble|Ubuntu(noble)|eclipse-temurin:21.0.9_10-jdk-noble|3.7.4|
+|v3.7.4-25.0.1_8-jdk-noble|Ubuntu(noble)|eclipse-temurin:25.0.1_8-jdk-noble|3.7.4|
+
 
 # Usaga
 
