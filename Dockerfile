@@ -1,4 +1,4 @@
-FROM eclipse-temurin:25.0.1_8-jdk-noble
+FROM eclipse-temurin:25.0.2_10-jdk-noble
 
 LABEL maintainer="yoshinorin"
 
@@ -14,7 +14,7 @@ RUN curl -s "https://get.sdkman.io" | bash \
   && echo "sdkman_curl_max_time=60" >> "$HOME/.sdkman/etc/config" \
   && chmod +x "$HOME/.sdkman/bin/sdkman-init.sh" \
   && source "$HOME/.sdkman/bin/sdkman-init.sh" \
-  && sdk install scala 3.8.1 \
+  && sdk install scala 3.8.2 \
   && rm -rf "$HOME/.sdkman" \
   && apt autoremove -y \
   && apt clean \
